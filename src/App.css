@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-bottom: 1000px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #35E6D4;
+  padding: 0 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.spacer {
+  height: 50px;
+}
+
+.center {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+}
+.center .box {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
