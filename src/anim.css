@@ -70,6 +70,16 @@ animation-direction: normal, reverse;
 animation-direction: alternate, reverse, normal;
 }
 
+.anim-delay {
+/* 单个动画 */
+animation-delay: 3s;
+animation-delay: 0s;
+animation-delay: -1500ms;
+
+/* 多个动画 */
+animation-delay: 2.1s, 480ms;
+}
+
 .anim-fill-mode {
 /* 单个动画 */
 animation-fill-mode: none;

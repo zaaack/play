@@ -1,0 +1,25 @@
+@keyframes anim-play-state {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
+
+.anim-play-state {
+    .item {
+        display: flex;
+        align-items: center;
+        .label {
+            width: 290px;
+            margin-right: 20px;
+        }
+        .box {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: anim-iteration-count 3s linear infinite alternate backwards;
+        }
+    }
+}

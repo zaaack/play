@@ -1,8 +1,7 @@
 import React, { HTMLAttributes } from 'react'
 import Highlight from 'react-highlight'
 import 'highlight.js/scss/github-dark-dimmed.scss'
-export interface Props extends React.DetailedHTMLProps<HTMLAttributes<HTMLPreElement>, HTMLPreElement> {
-  children: string
+export interface Props extends React.DetailedHTMLProps<HTMLAttributes<HTMLPreElement>, HTMLPreElement>, React.PropsWithChildren {
   lang?: string
 }
 

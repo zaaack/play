@@ -1,4 +1,4 @@
-@keyframes anim-fill-mode {
+@keyframes anim-iteration-count {
     from {
         transform: translateX(0px);
     }
@@ -7,7 +7,7 @@
     }
 }
 
-.anim-fill-mode {
+.anim-iteration-count {
     .item {
         display: flex;
         align-items: center;
@@ -19,7 +19,7 @@
             border-radius: 50%;
             width: 30px;
             height: 30px;
-            animation: anim-fill-mode 3s linear 2s 1 backwards;
+            animation: anim-iteration-count 3s linear 2s 1 backwards;
         }
     }
 }
